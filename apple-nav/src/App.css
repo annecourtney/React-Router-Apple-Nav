@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.navigation p {
+  display: inline-block;
+  margin-left: 32px;
+  margin-right: 32px;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 100;
+  font-family: Calibri;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: -.021em;
+
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333232;
+}
+
+.appleicon {
+  color: white;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.searchicon {
+  color: white;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.shoppingbagicon {
+  color: white;
+  margin-left: 32px;
+  margin-right: 32px;
+}
